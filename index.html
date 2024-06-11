@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>George K. Fotiou's Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+        font-family: 'Press Start 2P', cursive;
+        color: #48e809;
+        overflow-x: hidden; /* Prevent horizontal scrollbar */
+        background-color: #000;
+        background-image: url('https://www.shutterstock.com/shutterstock/videos/1108055651/thumb/1.jpg?ip=x480');
+        background-repeat: repeat;
+        background-size: auto;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #000;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    header nav ul li a:hover {
+      color: #00ff80;
+    }
+
+    /* Section Styles */
+    .section {
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+    }
+
+    /* Project Styles */
+    .project {
+      margin-bottom: 50px;
+    }
+
+    .project h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .project p {
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #00ff80;
+      color: #000;
+      padding: 12px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #000;
+      color: #00ff80;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #00ff80;
+      text-decoration: none;
+      font-size: 20px;
+      margin-right: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>George Konstantine Fotiou</h1>
+      <nav>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <!-- Add your projects here -->
+      <div class="project">
+        <h3>Salisbury Zoo Database Management Software</h3>
+        <p>Was privledged to work with a phenomenal group to create a DBMS for the Salisbury Zoo. The software utilizes a database to keep track of each animals
+        personal information along with thier welfare status and their diets. Includes graphs to visual the data and to make assumptions on
+        the welbeing of an animal and their diets.</p>
+        <a href="https://github.com/Salisbury-University/animal-welfare" class="btn">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Comming Soon...</h3>
+        <p>
+          You can't rush perfection!
+        </p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Just a simple man trying to make his way through the galaxy... <br> 
+      Love to fish, freedive, scuba dive, play soccer, and spend time with my family. </p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>You can reach me at: fotioug23@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://github.com/feta23" class="social"><i class="fab fa-github"></i></a>
+        <!-- Add more social icons as needed -->
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
